@@ -1,0 +1,22 @@
+#more_info{
+	margin-top: 3rem;
+	background-color: rgb(128,185,53);
+	color: #fff;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+footer{
+	padding: 15px;
+	text-align: center;
+}
+@media screen and (max-width: 769px){
+	#more_info{
+		margin-top: 1rem;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+	#more_info .row div{
+		margin-top: 1rem;
+	}
+}
+/*end footer*/

@@ -1,0 +1,139 @@
+#product .row_box{
+	padding-right: 0;
+	padding-left: 0;
+}
+@media screen and (min-width: 992px){
+	#product .container-fluid{
+		max-width: 960px;
+	}
+}
+@media screen and (min-width: 1200px){
+	#product .container-fluid{
+		max-width: 1140px;
+	}
+}
+#product .card{
+	border: 0;
+}
+#product .card-img{
+	border-radius: 0;
+	width: 100%;
+	border: 1px solid #b7b7b7;
+}
+@media screen and (max-width: 575.9px){
+	#product .card-img{
+		width: 70% !important;
+	}
+	#product .col-sm-6{
+		text-align: center;
+	}
+
+}
+#product .card-text-box{
+	border: 1px dashed #b7b7b7; 
+	padding: 1rem;
+}
+#product .card-text small{
+	color: #333;
+}
+#product .card-body{
+	padding-top: 0;
+	padding-left: 2rem;
+}
+@media screen and (max-width: 575px){
+	#product .card-body{
+		padding-top: 1rem;
+	}
+}
+#product .no-gutters .col-md-6{
+	margin-bottom: 30px;
+}
+#product .fa-star{
+	color: #f5f524;
+	font-size: 16px;
+	margin-bottom: 1rem;
+}
+#product .btn-success{
+	border-radius: 0;
+	margin-right: 3px;
+	background-color: rgb(85,160,7);
+}
+#info_product, .like-share-cmt{
+	padding-right: 15px;
+}
+#info_product p{
+	font-size: 13px;
+	line-height: 24px;
+	text-align: justify;
+}
+#product .ca-hoi-bac-au{
+	padding: 30px;
+}
+#product .ca-hoi-bac-au img{
+	width: 100%;
+}
+#product .btn-danger{
+	margin-right: 5px;
+	border-radius: 0;
+	background-color: rgb(198,8,8);
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+	#product .col-12{
+		padding: 0;
+	}
+}
+/*comment*/
+.btn-facebook {
+	color: #fff;
+	background-color: #4C67A1;
+	border-radius: 4px;
+	font-weight: 700;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+.btn-facebook:hover {
+	color: #fff;
+	background-color: #405D9B;
+}
+.btn-facebook:focus {
+	color: #fff;
+}
+#comment{
+	padding-left: 10px;
+}
+#comment div:first-child{
+	float: left;
+}
+#comment p{
+	font-weight: 600;
+}
+#sapXep{
+	text-align: right;
+}
+#sapXep select{
+	background-color: #e2dbdb;
+	border: 1px solid #cabcbc;
+	border-radius: 2px;
+}
+#comment img{
+	width: 50px;
+	height: 50px;
+}
+#cmt_plugin{
+	text-align: left;
+	margin-bottom: 30px;
+}
+#cmt_plugin a{
+	font-size: 12px;
+	color: #4C67A1;
+}
+.media-body{
+	width: 100%;
+}
+.media-body input{
+	width: 100%;
+	height: 50px;
+	padding-left: 1rem;
+}
+/*end comment*/
+

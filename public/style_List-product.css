@@ -1,0 +1,83 @@
+#category{
+	margin-top: 50px;
+}
+#category .thuc-pham{
+	margin-bottom: 40px;
+}
+#category .btn-danger{
+	margin-right: 5px;
+	border-radius: 0;
+	background-color: rgb(198,8,8);
+}
+.btn-light, .btn-dark{
+	border: 1px solid #a2a1a1;
+	border-radius: 0;
+	font-size: 12px;
+}
+.btn-light{
+	color: #a2a1a1;
+}
+.btn-dark{
+	color: #fff;
+	background-color: #a2a1a1;
+}
+.dropdown{
+	display: inline-block;
+}
+.dropdown-menu{
+	border-radius: 0;
+}
+.col-lg-3{
+	max-width: 244px;
+	margin:0 0 20px 0;
+	padding: 0;
+}
+#category .card{
+	border: 1px solid #b9b6b6;
+	text-align: center;
+	border-radius: 0;
+	box-sizing: border-box;
+	width: 224px;
+	height: 340px;
+	margin: 0 auto;
+}
+#category .card div.box-img{
+	position: relative;
+	height: 260px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#category .card-img-top{
+	box-sizing: border-box;
+	display: block;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	margin: 0 auto;
+}
+#category .card-body{
+	border-top: 1px solid #b9b6b6;
+	height: 80px;
+	width: 220px;
+	padding: 0;
+	position: absolute;
+	bottom: 0;
+}
+#category .card-title{
+	font-size: 16px;
+	margin: 10px 0 0 0;
+}
+#category .card-text{
+	font-size: 13px;
+	margin: 2px 0;
+}
+#category .card-link{
+	font-size: 11px;
+	color: #c80a0a;
+	font-weight: 500;
+}
+@media only screen and (max-width: 1199px){
+	#category .container{
+		max-width: 100% !important;
+	}
+}

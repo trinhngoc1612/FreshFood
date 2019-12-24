@@ -1,0 +1,16 @@
+#big_img div{
+	position: relative;
+}
+#big_img div a{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#big_img a{
+	color: #fff;
+}
+#big_img{
+	margin-bottom: 40px;
+}
+/*end big_img*/

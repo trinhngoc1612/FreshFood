@@ -1,0 +1,30 @@
+/*advertise*/
+.box-R{
+	padding: 1em;
+	margin-bottom: 10px;
+	border: 1px solid #8c8b8b;
+	text-align: justify;
+}
+.box_img{
+	padding: 0 15px;
+	border: 0;
+}
+.box_img img{
+	width: 100%;
+}
+#advertise i{
+	font-size: 22px;
+}
+#product .row{
+	margin-left: 0;
+	margin-right: 0;
+}
+@media screen and (max-width: 568px){
+	#advertise{
+		padding: 0;
+	}
+	#advertise .col-12{
+		padding: 0;
+	}
+}
+/*end advertise*/

@@ -1,0 +1,28 @@
+
+#handbook .card{
+	border:0;
+}
+#handbook .card-body{
+	padding: 0 1rem 1rem 2rem;
+	text-align: justify;
+}
+#handbook .card-img{
+	height: 100%;
+	border-radius: 0;
+}
+#handbook .card-text i{
+	font-size: 11px;
+}
+
+#category .btn-danger{
+	margin-right: 5px;
+	border-radius: 0;
+	background-color: rgb(198,8,8);
+}
+@media screen and (max-width: 576px){
+	#handbook .card-img{
+		width: 70%;
+		display: block;
+		margin:0 auto;
+	}
+}

@@ -1,0 +1,92 @@
+
+td, tr, th{
+	padding: 10px 10px;
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #8c8b8b;
+	text-align: center;
+	vertical-align: middle;
+}
+td img{
+	max-width: 100px;
+	border: 1px solid #cacaca;
+}
+td input{
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 30px;
+}
+td:first-child, th:first-child{
+	border-left: 1px solid #8c8b8b;
+}
+td:last-child, th:last-child{
+	border-right: 1px solid #8c8b8b;
+}
+.maSP{
+	width: 15%;
+	min-width: 100px;
+}
+.tenSP{
+	width: 30%;
+	min-width: 130px;
+}
+#main-table .title{
+	width: 12%;
+	min-width: 80px;
+}
+.btn-success{
+	border-radius: 0;
+	margin-right: 3px;
+	background-color: rgb(85,160,7);
+}
+@media only screen and (max-width: 767.9px){
+	#col-L, #col-R{
+		text-align: left;
+	}
+	#col-R .btn{
+		display: block;
+		margin-top: 10px;
+	}
+	#main_table .container{
+		padding: 0;
+	}
+	#main_table{
+		margin: 0 15px;
+		overflow-x: auto;
+	}
+	#main_table .container{
+		margin: 0;
+	}
+}
+@media only screen and (min-width: 768px){
+	#col-L{
+		float: left;
+		line-height: 34px;
+		padding-left: 20px;
+	}
+	#col-R{
+		text-align: right;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	#main_table .container{
+		width: 768px;
+	}
+}
+/*end table*/
+
+form h4{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+label{
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+form div input.form-control{
+	width: 300px;
+	border-radius: 0;
+	margin-bottom: 10px;
+}
+form .submit{
+	margin-top: 10px;
+}
